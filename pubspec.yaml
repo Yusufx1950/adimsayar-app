@@ -54,6 +54,7 @@ dependencies:
   # UI bileşenleri
   fl_chart: ^0.66.0  # Grafikler için
   intl: ^0.18.1      # Tarih formatlama
+  flutter_local_notifications: ^20.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
