@@ -34,7 +34,26 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  # Temel adımsayar (Android/iOS native sensör)
+  pedometer: ^4.0.1
 
+  # Alternatif: Kendi algoritmanız için ivmeölçer
+  sensors_plus: ^7.0.0
+
+  # State management
+  flutter_bloc: ^8.1.3
+  # veya
+  provider: ^6.1.1
+
+  # Yerel veri depolama
+  shared_preferences: ^2.2.2
+
+  # İzin yönetimi
+  permission_handler: ^11.0.1
+
+  # UI bileşenleri
+  fl_chart: ^0.66.0  # Grafikler için
+  intl: ^0.18.1      # Tarih formatlama
 dev_dependencies:
   flutter_test:
     sdk: flutter
